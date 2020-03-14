@@ -1,10 +1,11 @@
 ## Functions to cache the inverse of matrix
 
 
-## Write a short comment describing this function
+## Function to create a matrix object to can cache its inverse
 
 makeCacheMatrix <- function(x = matrix()){
   
+  ## set inverse value to NULL
   i <- NULL
  
   set <- function( matrix ) 
